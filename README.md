@@ -37,7 +37,7 @@ Edit file `Koneksi.cs` untuk mengatur koneksi database:
 private string server = "127.0.0.1";
 private string database = "laravel_cinema_corleone";
 private string username = "root";
-private string password = "Dens999201";
+private string password = "...";
 ```
 
 ## 📌 Requirements
