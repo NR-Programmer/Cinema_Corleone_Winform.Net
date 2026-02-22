@@ -9,7 +9,7 @@ CinemaCorleone adalah aplikasi manajemen bioskop yang memungkinkan pengguna untu
 ## 🛠️ Teknologi
 
 - **Framework:** .NET Framework 4.8
-- **UI:** Windows Forms
+- **UI:** GUNA UI
 - **Database:** MySQL
 - **Bahasa:** C#
 
@@ -20,27 +20,6 @@ CinemaCorleone adalah aplikasi manajemen bioskop yang memungkinkan pengguna untu
 - 🎬 **Manajemen Film** - Tambah, edit, hapus data film
 - 🏙️ **Manajemen Kota** - Kelola data kota
 - 👥 **Manajemen Pengguna** - Kelola data pengguna
-
-## 📁 Struktur Proyek
-
-```
-CinemaCorleone/
-├── CinemaCorleone/
-│   ├── DashboardSuperAdmin.cs/.designer.cs
-│   ├── FilmSuperAdmin.cs/.designer.cs
-│   ├── KotaSuperAdmin.cs/.designer.cs
-│   ├── Login.cs/.designer.cs
-│   ├── SuperAdminMain.cs/.designer.cs
-│   ├── Services/
-│   │   ├── DashboardService.cs
-│   │   ├── FilmService.cs
-│   │   ├── KotaService.cs
-│   │   └── PenggunaService.cs
-│   ├── Koneksi.cs
-│   └── Program.cs
-├── CinemaCorleone.sln
-└── README.md
-```
 
 ## 🚀 Cara Menjalankan
 
@@ -55,23 +34,23 @@ CinemaCorleone/
 Edit file `Koneksi.cs` untuk mengatur koneksi database:
 
 ```csharp
-private string server = "localhost";
-private string database = "cinema_corleone";
+private string server = "127.0.0.1";
+private string database = "laravel_cinema_corleone";
 private string username = "root";
-private string password = "";
+private string password = "Dens999201";
 ```
 
 ## 📌 Requirements
 
 - Windows 7 atau versi lebih baru
 - .NET Framework 4.8
-- Visual Studio 2019 atau versi lebih baru
-- MySQL Server 5.7 atau versi lebih baru
+- Visual Studio 2026 atau versi lebih baru
+- MySQL Server 9.4 atau versi lebih baru
 
 ## 👨‍💻 Author
 
-- **Nama:** [Your Name]
-- **GitHub:** [your-username]
+- **Nama:** [Densus Prabowo Sugiharto]
+- **GitHub:** [NR-Programmer]
 
 ## 📄 License
 
