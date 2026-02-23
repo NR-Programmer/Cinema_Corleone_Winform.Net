@@ -55,7 +55,7 @@ Kami telah berhasil mengimplementasikan sistem autentikasi dengan manajemen pera
 ## 🛠️ Teknologi yang Digunakan
 
 - **Framework:** .NET Framework 4.8
-- **UI:** Windows Forms (Guna UI 2)
+- **UI:** Windows Forms
 - **Database:** MySQL
 - **Bahasa:** C#
 - **Library Hashing:** BCrypt.Net-Next (untuk keamanan password)
@@ -75,11 +75,11 @@ Fokus pengembangan selanjutnya adalah memperluas fungsionalitas manajemen dan me
 ```
 CinemaCorleone/
 ├── CinemaCorleone/
-│   ├── Login.cs/.designer.cs
-│   ├── SuperAdminMain.cs/.designer.cs
 │   ├── DashboardSuperAdmin.cs/.designer.cs
 │   ├── FilmSuperAdmin.cs/.designer.cs
 │   ├── KotaSuperAdmin.cs/.designer.cs
+│   ├── Login.cs/.designer.cs
+│   ├── SuperAdminMain.cs/.designer.cs
 │   ├── Services/
 │   │   ├── DashboardService.cs
 │   │   ├── FilmService.cs
@@ -91,28 +91,30 @@ CinemaCorleone/
 └── README.md
 ```
 
-## 🔧 Konfigurasi Database
-
-File: `Koneksi.cs`
-
-```csharp
-string connectionString = "server=127.0.0.1;port=3306;user=root;password=Dens999201;database=laravel_cinema_corleone;";
-```
-
 ## 🚀 Cara Menjalankan
 
 1. Buka solution `CinemaCorleone.sln` menggunakan Visual Studio
 2. Pastikan database MySQL sudah terinstall dan berjalan
 3. Import database dari file `cinema_corleone` (cek folder database)
-4. Konfigurasi koneksi database di `Koneksi.cs` sesuai kebutuhan
-5. Build solution (Ctrl + Shift + B)
-6. Tekan `F5` atau klik tombol Run untuk menjalankan aplikasi
+4. Konfigurasi koneksi database di `Koneksi.cs`
+5. Tekan `F5` atau klik tombol Run untuk menjalankan aplikasi
+
+## 🔧 Konfigurasi Database
+
+Edit file `Koneksi.cs` untuk mengatur koneksi database:
+
+```csharp
+private string server = "localhost";
+private string database = "cinema_corleone";
+private string username = "root";
+private string password = "...";
+```
 
 ## 📌 Requirements
 
 - Windows 7 atau versi lebih baru
 - .NET Framework 4.8
-- Visual Studio 2019 atau versi lebih baru
+- Visual Studio 2022 atau versi lebih baru
 - MySQL Server 5.7 atau versi lebih baru
 
 ## 👨‍💻 Author
