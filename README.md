@@ -118,14 +118,8 @@ private string password = "";
 - MySQL Server 5.7 atau versi lebih baru
 
 ## 👨‍💻 Author
-
-<<<<<<<<< Temporary merge branch 1
-- **Nama:** [Densus Prabowo Sugiharto]
-- **GitHub:** [NR-Programmer]
-=========
 - **Nama:** Densus Prabowo Sugiharto
 - **GitHub:** NR-Programmer
->>>>>>>>> Temporary merge branch 2
 
 ## 📄 License
 
