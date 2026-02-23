@@ -107,7 +107,7 @@ Edit file `Koneksi.cs` untuk mengatur koneksi database:
 private string server = "localhost";
 private string database = "cinema_corleone";
 private string username = "root";
-private string password = "...";
+private string password = "";
 ```
 
 ## 📌 Requirements
@@ -119,8 +119,13 @@ private string password = "...";
 
 ## 👨‍💻 Author
 
+<<<<<<<<< Temporary merge branch 1
+- **Nama:** [Densus Prabowo Sugiharto]
+- **GitHub:** [NR-Programmer]
+=========
 - **Nama:** Densus Prabowo Sugiharto
 - **GitHub:** NR-Programmer
+>>>>>>>>> Temporary merge branch 2
 
 ## 📄 License
 
